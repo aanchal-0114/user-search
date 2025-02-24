@@ -1,0 +1,16 @@
+.search-box {
+    width: 605px;
+    padding: 14px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .full-width {
+    width: 100%;
+  }
+  
+  mat-card {
+    box-shadow: none; /* Removes default shadow */
+    border: none; /* Removes border */
+    background: transparent; /* Optional: Makes background transparent */
+  }

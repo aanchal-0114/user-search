@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    background: #65696c;
+    color: white;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .logo {
+    flex-grow: 1;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .toggle-btn {
+    margin-right: 16px;
+    color: white;
+    background: transparent; /* Remove background */
+    border: none; /* Remove border */
+    padding: 8px;
+    cursor: pointer; /* Ensure it's clickable */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    &:hover {
+      background: rgba(255, 255, 255, 0.2); /* Light hover effect */
+      border-radius: 50%; /* Keep circular hover effect */
+    }
+  
+    &:focus {
+      outline: none; /* Remove outline */
+    }
+  }
+  
